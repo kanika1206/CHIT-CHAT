@@ -46,7 +46,7 @@ CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azur
    The interface displays recent conversations for better context and continuity.
 
    
-### 📁 Project Structure
+
 ### 📁 Project Structure
 
 This project was built using Microsoft Azure's no-code and low-code services. Here's how each part contributes:
