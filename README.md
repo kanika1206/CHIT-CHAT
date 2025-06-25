@@ -68,20 +68,6 @@ This project was built using Microsoft Azure's no-code and low-code services. He
    - Users can interact with it through a browser at:  
      [`https://chitchitchat.azurewebsites.net`](https://chitchitchat.azurewebsites.net)
 
-5. **Source Files in This Repo**
-
-5. Source Files in This Repo
-├── README.md           # Project overview and documentation
-├── demo_link.txt       # Live Azure chatbot link
-├── LICENSE             # License information (MIT)
-├── screenshots/        # Screenshots of the chatbot interface
-│   ├── bot-ui.png
-│   ├── bot-response.png
-│   ├── chat-history.png
-│   └── .gitkeep        # Keeps the screenshots folder in Git
-
-
-
 
 
 ## License
