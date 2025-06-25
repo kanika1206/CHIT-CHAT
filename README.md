@@ -46,46 +46,56 @@ CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azur
    The interface displays recent conversations for better context and continuity.
 
    
+### ⚙️ Working Flow
 
-### 📁 Project Structure
+#### 🔹 Step 1: Prepare FAQs
+- Gather frequently asked questions related to IIT Jammu.
+- Organize them into Question-Answer pairs for easy upload.
 
-This project was built using Microsoft Azure's no-code and low-code services. Here's how each part contributes:
+#### 🔹 Step 2: Create a QnA Knowledge Base
+- Use [Azure Language Studio](https://language.azure.com/) or [QnA Maker](https://www.qnamaker.ai/) to create a knowledge base (KB).
+- Add the QnA pairs manually or upload from a document.
 
-1. **Azure QnA Maker / Language Studio**  
-   - A knowledge base of IIT Jammu FAQs was created.
-   - Questions and answers were added manually or imported from a document.
+#### 🔹 Step 3: Set Up Azure Bot Service
+- Go to [Azure Portal](https://portal.azure.com) and create a **Web App Bot**.
+- Link it with the QnA KB using the **Bot Channels Registration**.
+- Azure automatically handles the bot logic using its Bot Framework.
 
-2. **Azure Bot Service**  
-   - A bot was created and connected to the QnA Maker resource.
-   - Azure Bot Framework handles natural language understanding.
+#### 🔹 Step 4: Enable Web Chat Channel
+- In the Azure Bot configuration, enable the **Web Chat** channel.
+- Get the direct link or embed code to deploy it on a website.
 
-3. **Bot Deployment**  
-   - The bot was deployed using **Azure Web App Bot** (via Azure Portal).
-   - Web Chat channel enabled to interact with the bot using a public URL.
+#### 🔹 Step 5: Deploy and Go Live
+- Azure automatically hosts the bot via **Azure Web App**.
+- The chatbot becomes accessible at a live public URL.
+- Users can chat in real-time, and the bot responds based on the KB.
 
-4. **Web App Hosting**  
-   - The chatbot interface is hosted as a live website using Azure App Service.
-   - Users can interact with it through a browser at:  
-     [`https://chitchitchat.azurewebsites.net`](https://chitchitchat.azurewebsites.net)
+#### 🔹 Step 6: Chat Interface + History
+- Users interact via a clean web UI.
+- The bot maintains a visible **chat history** to help with context.
 
-## Future Improvements
-### 🔮 Future Improvements
+---
 
-- **🧠 Sentiment Analysis**  
-  Integrate sentiment analysis to detect the user's emotional tone (e.g., confusion, frustration, satisfaction).  
-  This can help the bot respond more empathetically or escalate to a human if needed.
+### 📈 Future Flow and Improvements
 
-- **🌐 Web Scraping for Dynamic FAQs**  
-  Automate the extraction of updated FAQs from the official IIT Jammu website using web scraping.  
-  This would allow the knowledge base to stay current without manual updates.
+#### 🧠 Sentiment Analysis
+- Detect user emotions (happy, confused, angry) using NLP.
+- Adapt bot responses or escalate to a human if negative sentiment is detected.
 
-- **💾 Chat Logging with Azure Cosmos DB**  
-  Store conversation history in a database to allow personalized responses, analytics, and admin review.
+#### 🌐 Web Scraping
+- Automatically extract FAQs from the official IIT Jammu website.
+- Keep the knowledge base **fresh and updated** without manual input.
 
-- **🔐 Role-Based Access**  
-  Add login for students/faculty to provide more specific answers to internal queries.
+#### 💾 Chat Logging
+- Store user queries and responses in **Azure Cosmos DB**.
+- Useful for analytics, personalization, or feedback loops.
 
-- **📱 Progressive Web App (PWA)**  
+#### 🔐 User-Based Access (Future)
+- Add login system for IIT students and staff.
+- Serve personalized answers based on user role
+
+
+### 📱 Progressive Web App (PWA)**  
   Convert the chatbot into an installable PWA for mobile users with offline fallback.
 
 
