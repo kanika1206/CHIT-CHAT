@@ -2,6 +2,7 @@
 
 CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azure Bot Services without writing any backend code. It provides users with instant answers and is deployed as a live Azure Web App.
 
+---
 
 ## 🚀 Live Demo
 👉 [Click here to talk to the bot](https://chitchitchat.azurewebsites.net)
@@ -11,6 +12,8 @@ CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azur
 - Azure Web App
 - Azure QnA Maker / Language Studio
 - Bot Framework Web Chat
+
+---
 
 ## 📸 Screenshots
 
@@ -23,11 +26,17 @@ CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azur
 ### 🔹 Chat History Support
 ![Chatbot History](screenshots/chat-history.png)
 
+
+---
+
 ## 🧠 Features
 - Answers FAQs about IIT Jammu
 - Built without writing manual code
 - Uses Azure-hosted AI capabilities
 - Deploys directly to a web app
+
+---
+
 ### ⚙️ How It Works
 
 1. **Data Upload**  
@@ -45,7 +54,8 @@ CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azur
 5. **Chat History**  
    The interface displays recent conversations for better context and continuity.
 
-   
+ ----
+ 
 ### ⚙️ Working Flow
 
 #### 🔹 Step 1: Prepare FAQs
@@ -98,10 +108,13 @@ CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azur
 ### 📱 Progressive Web App (PWA)**  
   Convert the chatbot into an installable PWA for mobile users with offline fallback.
 
+---
 
 ## License
 This project is released under the MIT License.
-  
+
+---  
+
 ### Contributing
 Feel free to fork this repository and open a pull request with your improvements or suggestions. All contributions are appreciated!
 1. Fork or clone this repository
@@ -109,6 +122,7 @@ Feel free to fork this repository and open a pull request with your improvements
 3. Import the bot and connect to Language Studio  
 4. Deploy to Azure Web App using one-click publish
 
+---
 
 ### Contact
 For any issues or questions, feel free to reach out at kanikakapoor2308@gmail.com or you can reach at my Linkedin profile : https://www.linkedin.com/in/kanika-369bab286/ . 
