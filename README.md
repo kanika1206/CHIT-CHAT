@@ -68,6 +68,25 @@ This project was built using Microsoft Azure's no-code and low-code services. He
    - Users can interact with it through a browser at:  
      [`https://chitchitchat.azurewebsites.net`](https://chitchitchat.azurewebsites.net)
 
+## Future Improvements
+### 🔮 Future Improvements
+
+- **🧠 Sentiment Analysis**  
+  Integrate sentiment analysis to detect the user's emotional tone (e.g., confusion, frustration, satisfaction).  
+  This can help the bot respond more empathetically or escalate to a human if needed.
+
+- **🌐 Web Scraping for Dynamic FAQs**  
+  Automate the extraction of updated FAQs from the official IIT Jammu website using web scraping.  
+  This would allow the knowledge base to stay current without manual updates.
+
+- **💾 Chat Logging with Azure Cosmos DB**  
+  Store conversation history in a database to allow personalized responses, analytics, and admin review.
+
+- **🔐 Role-Based Access**  
+  Add login for students/faculty to provide more specific answers to internal queries.
+
+- **📱 Progressive Web App (PWA)**  
+  Convert the chatbot into an installable PWA for mobile users with offline fallback.
 
 
 ## License
@@ -82,4 +101,4 @@ Feel free to fork this repository and open a pull request with your improvements
 
 
 ### Contact
-For any issues or questions, feel free to reach out at kanikakapoor2308@gmail.com or create an issue in the repository.
+For any issues or questions, feel free to reach out at kanikakapoor2308@gmail.com or you can reach at my Linkedin profile : https://www.linkedin.com/in/kanika-369bab286/ . 
