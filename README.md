@@ -12,10 +12,15 @@ This is an AI-powered FAQ chatbot created using Microsoft Azure. It answers user
 - Bot Framework Web Chat
 
 ## 📸 Screenshots
-![Chatbot UI](screenshots/bot-ui.png)
-![Chatbot Response](screenshots/bot-response.png)
-![Chatbot History](screenshots/chat-history.png)
 
+### 🔹 Chatbot Interface
+![Chatbot UI](screenshots/bot-ui.png)
+
+### 🔹 Sample Response
+![Chatbot Response](screenshots/bot-response.png)
+
+### 🔹 Chat History Support
+![Chatbot History](screenshots/chat-history.png)
 
 ## 🧠 Features
 - Answers FAQs about IIT Jammu
