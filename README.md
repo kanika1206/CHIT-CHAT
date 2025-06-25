@@ -81,13 +81,9 @@ CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azur
 - Store user queries and responses in **Azure Cosmos DB**.
 - Useful for analytics, personalization, or feedback loops.
 
-#### 🔐 User-Based Access (Future)
+#### 🔐 User-Based Access 
 - Add login system for IIT students and staff.
 - Serve personalized answers based on user role
-
-
-### 📱 Progressive Web App (PWA)**  
-  Convert the chatbot into an installable PWA for mobile users with offline fallback.
 
 ---
 
