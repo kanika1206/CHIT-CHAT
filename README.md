@@ -1,4 +1,4 @@
-# 💬 Azure FAQ Chatbot
+# 💬 CHIT-CHAT
 
 CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azure Bot Services without writing any backend code. It provides users with instant answers and is deployed as a live Azure Web App.
 
@@ -125,4 +125,4 @@ Feel free to fork this repository and open a pull request with your improvements
 ---
 
 ### Contact
-For any issues or questions, feel free to reach out at kanikakapoor2308@gmail.com or you can reach at my Linkedin profile : https://www.linkedin.com/in/kanika-369bab286/ . 
+For any issues or questions, feel free to reach out at kanikakapoor2308@gmail.com or you can reach at my Linkedin profile : https://www.linkedin.com/in/kanika-369bab286/ . You can also create issues in repository.
