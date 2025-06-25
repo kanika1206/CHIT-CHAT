@@ -91,10 +91,6 @@ CHIT-CHAT is an AI-powered FAQ chatbot for IIT Jammu, built using Microsoft Azur
 
 ---
 
-## License
-This project is released under the MIT License.
-
----  
 
 ### Contributing
 Feel free to fork this repository and open a pull request with your improvements or suggestions. All contributions are appreciated!
@@ -107,3 +103,9 @@ Feel free to fork this repository and open a pull request with your improvements
 
 ### Contact
 For any issues or questions, feel free to reach out at kanikakapoor2308@gmail.com or you can reach at my Linkedin profile : https://www.linkedin.com/in/kanika-369bab286/ . You can also create issues in repository.
+
+---  
+## License
+This project is released under the MIT License.
+
+
